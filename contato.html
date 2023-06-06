@@ -20,5 +20,46 @@
           <li><a href="./contato.html">Contato</a></li>
         </ul>
       </nav>
+
+      <section>
+        <h2>Formulário de Contato</h2>
+        <form action="/enviar-contato" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br>
+    
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required><br>
+    
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
+    
+            <label for="interesses">Interesses:</label><br>
+            <input type="checkbox" id="interesse1" name="interesses" value="interesse1">
+            <label for="interesse1">Interesse 1</label><br>
+            <input type="checkbox" id="interesse2" name="interesses" value="interesse2">
+            <label for="interesse2">Interesse 2</label><br>
+            <input type="checkbox" id="interesse3" name="interesses" value="interesse3">
+            <label for="interesse3">Interesse 3</label><br>
+    
+            <label for="como-conheceu">Como nos conheceu?</label>
+            <select id="como-conheceu" name="como-conheceu" required>
+                <option value="">Selecione uma opção</option>
+                <option value="busca">Busca na Internet</option>
+                <option value="redes-sociais">Redes Sociais</option>
+                <option value="recomendacao">Recomendação de amigo</option>
+            </select><br>
+    
+            <label for="newsletter">Deseja receber nossa newsletter?</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="sim"><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+      </section>
 </body>
 </html>
