@@ -3,7 +3,7 @@ function escolha(plantacao) {
     let mensagemElement = document.getElementById("escolha");
     //Algodão
     if (plantacao == '1'){
-        mensagemElement.innerHTML = "Qual o nome da praga que está atacando sua plantação de algodão?";
+        mensagemElement.innerHTML = "➤ Qual o nome da praga que está atacando sua plantação de algodão?";
 
         //Para limpar os textos após um novo click
         let pragas = document.getElementById("pragas");
@@ -15,7 +15,7 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaCartucho);
 
         lagartaCartucho.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta-do-cartucho: spodovir");
+        exibirMensagem("➞ Tratamento contra lagarta-do-cartucho: spodovir");
         });
 
         //Percevejo-marrom
@@ -24,7 +24,7 @@ function escolha(plantacao) {
         pragas.appendChild(percevejoMarrom);
 
         percevejoMarrom.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra percevejo-marrom: engeo pleno s");
+        exibirMensagem("➞ Tratamento contra percevejo-marrom: engeo pleno s");
         });
 
         //Lagarta Helicoverpa
@@ -33,7 +33,7 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaHelicoverpa);
 
         lagartaHelicoverpa.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta helicoverpa: bacillus thuringienses");
+        exibirMensagem("➞ Tratamento contra lagarta helicoverpa: bacillus thuringienses");
         });
 
         //Pulgão do algodoeiro
@@ -42,7 +42,7 @@ function escolha(plantacao) {
         pragas.appendChild(pulgaoAlgodoeiro);
 
         pulgaoAlgodoeiro.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra pulgão do algodoeiro: AUG 106");
+        exibirMensagem("➞ Tratamento contra pulgão do algodoeiro: AUG 106");
         });
 
         //Tripes
@@ -51,7 +51,7 @@ function escolha(plantacao) {
         pragas.appendChild(tripes);
 
         tripes.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra tripes: AUG 106");
+        exibirMensagem("➞ Tratamento contra tripes: AUG 106");
         });
 
         //Cupim de montículo
@@ -60,12 +60,12 @@ function escolha(plantacao) {
         pragas.appendChild(cupimMonticulo);
 
         cupimMonticulo.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra cupim de montículo: AUG 106");
+        exibirMensagem("➞ Tratamento contra cupim de montículo: AUG 106");
         });
 
     //Arroz
     } else if (plantacao == '2') {
-        mensagemElement.innerHTML = "Qual o nome da praga que está atacando sua plantação de arroz?";
+        mensagemElement.innerHTML = "➤ Qual o nome da praga que está atacando sua plantação de arroz?";
 
         //Para limpar os textos após um novo click
         let pragas = document.getElementById("pragas");
@@ -77,7 +77,7 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaCartucho);
 
         lagartaCartucho.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta do cartucho: spodovir");
+        exibirMensagem("➞ Tratamento contra lagarta do cartucho: spodovir");
         });
 
         //Percevejo do arroz
@@ -86,12 +86,12 @@ function escolha(plantacao) {
         pragas.appendChild(percevejoArroz);
 
         percevejoArroz.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra percevejo do arroz: engeo pleno s");
+        exibirMensagem("➞ Tratamento contra percevejo do arroz: engeo pleno s");
         });
 
     //Aveia
     } else if (plantacao == '3') {
-        mensagemElement.innerHTML = "Qual o nome da praga que está atacando sua plantação de aveia?";
+        mensagemElement.innerHTML = "➤ Qual o nome da praga que está atacando sua plantação de aveia?";
 
         //Para limpar os textos após um novo click
         let pragas = document.getElementById("pragas");
@@ -103,12 +103,12 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaCartucho);
 
         lagartaCartucho.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta do cartucho: spodovir");
+        exibirMensagem("➞ Tratamento contra lagarta do cartucho: spodovir");
         });
 
     //Café    
     } else if (plantacao == '4') {
-        mensagemElement.innerHTML = "Qual o nome da praga que está atacando sua plantação de café?";
+        mensagemElement.innerHTML = "➤ Qual o nome da praga que está atacando sua plantação de café?";
 
         //Para limpar os textos após um novo click
         let pragas = document.getElementById("pragas");
@@ -120,12 +120,12 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaHelicoverpa);
 
         lagartaHelicoverpa.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta helicoverpa: bacillus thuringienses");
+        exibirMensagem("➞ Tratamento contra lagarta helicoverpa: bacillus thuringienses");
         });
 
     //Cana-de-açúcar
     } else if (plantacao == '5') {
-        mensagemElement.innerHTML = "Qual o nome da praga que está atacando sua plantação de cana-de-açúcar?";
+        mensagemElement.innerHTML = "➤ Qual o nome da praga que está atacando sua plantação de cana-de-açúcar?";
 
         //Para limpar os textos após um novo click
         let pragas = document.getElementById("pragas");
@@ -137,12 +137,12 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaCartucho);
 
         lagartaCartucho.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta do cartucho: spodovir");
+        exibirMensagem("➞ Tratamento contra lagarta do cartucho: spodovir");
         });
 
     //Feijão
     } else if (plantacao == '6') {
-        mensagemElement.innerHTML = "Qual o nome da praga que está atacando sua plantação feijão?";
+        mensagemElement.innerHTML = "➤ Qual o nome da praga que está atacando sua plantação feijão?";
 
         //Para limpar os textos após um novo click
         let pragas = document.getElementById("pragas");
@@ -154,7 +154,7 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaCartucho);
 
         lagartaCartucho.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta do cartucho: spodovir");
+        exibirMensagem("➞ Tratamento contra lagarta do cartucho: spodovir");
         });
 
         //Lagarta Helicoverpa
@@ -163,12 +163,12 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaHelicoverpa);
 
         lagartaHelicoverpa.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta helicoverpa: bacillus thuringienses");
+        exibirMensagem("➞ Tratamento contra lagarta helicoverpa: bacillus thuringienses");
         });
 
     //Girassol
     } else if (plantacao == '7') {
-        mensagemElement.innerHTML = "Qual o nome da praga que está atacando sua plantação de girassol?";
+        mensagemElement.innerHTML = "➤ Qual o nome da praga que está atacando sua plantação de girassol?";
 
         //Para limpar os textos após um novo click
         let pragas = document.getElementById("pragas");
@@ -180,7 +180,7 @@ function escolha(plantacao) {
         pragas.appendChild(percevejoVerdePequeno);
 
         percevejoVerdePequeno.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra percevejo-verde-pequeno: engeo pleno s");
+        exibirMensagem("➞ Tratamento contra percevejo-verde-pequeno: engeo pleno s");
         });
 
         //Percevejo-da-soja
@@ -189,7 +189,7 @@ function escolha(plantacao) {
         pragas.appendChild(percevejoSoja);
 
         percevejoSoja.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra percevejo-da-soja: engeo pleno s");
+        exibirMensagem("➞ Tratamento contra percevejo-da-soja: engeo pleno s");
         });        
 
         //Percevejo-marrom
@@ -198,12 +198,12 @@ function escolha(plantacao) {
         pragas.appendChild(percevejoMarrom);
 
         percevejoMarrom.addEventListener('click', function() {
-        exibirMensagem("Tratamento percevejo-marrom: engeo pleno s");
+        exibirMensagem("➞ Tratamento percevejo-marrom: engeo pleno s");
         });        
 
     //Milho
     } else if (plantacao == '8') {
-        mensagemElement.innerHTML = "Qual o nome da praga que está atacando sua plantação de milho?";
+        mensagemElement.innerHTML = "➤ Qual o nome da praga que está atacando sua plantação de milho?";
 
         //Para limpar os textos após um novo click
         let pragas = document.getElementById("pragas");
@@ -215,7 +215,7 @@ function escolha(plantacao) {
         pragas.appendChild(percevejoBarrigaVerde);
 
         percevejoBarrigaVerde.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra percevejo-barriga-verde: engeo pleno s");
+        exibirMensagem("➞ Tratamento contra percevejo-barriga-verde: engeo pleno s");
         });
 
         //Lagarta Helicoverpa
@@ -224,7 +224,7 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaHelicoverpa);
 
         lagartaHelicoverpa.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta helicoverpa: bacillus thuringienses");  
+        exibirMensagem("➞ Tratamento contra lagarta helicoverpa: bacillus thuringienses");  
         });
 
         //Cigarrinha do milho
@@ -233,7 +233,7 @@ function escolha(plantacao) {
         pragas.appendChild(cigarrinhaMilho);
 
         cigarrinhaMilho.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra cigarrinha do milho: AUG 106");  
+        exibirMensagem("➞ Tratamento contra cigarrinha do milho: AUG 106");  
         });
 
         //Vaquinha verde amarela
@@ -242,7 +242,7 @@ function escolha(plantacao) {
         pragas.appendChild(vaquinhaVerdeAmarela);
 
         vaquinhaVerdeAmarela.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra vaquinha verde amarela: AUG 106");  
+        exibirMensagem("➞ Tratamento contra vaquinha verde amarela: AUG 106");  
         });
 
         //Cupim
@@ -251,7 +251,7 @@ function escolha(plantacao) {
         pragas.appendChild(cupim);
 
         cupim.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra cupim: AUG 106");  
+        exibirMensagem("➞ Tratamento contra cupim: AUG 106");  
         });
 
         //Pulgão
@@ -260,12 +260,12 @@ function escolha(plantacao) {
         pragas.appendChild(pulgao);
 
         pulgao.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra pulgão: AUG 106");  
+        exibirMensagem("➞ Tratamento contra pulgão: AUG 106");  
         });
 
     //Soja
     }  else if (plantacao == '9') {
-        mensagemElement.innerHTML = "Qual o nome da praga que está atacando sua plantação de soja?";
+        mensagemElement.innerHTML = "➤ Qual o nome da praga que está atacando sua plantação de soja?";
 
         //Para limpar os textos após um novo click
         let pragas = document.getElementById("pragas");
@@ -277,7 +277,7 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaCartucho);
 
         lagartaCartucho.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta do cartucho: spodovir");
+        exibirMensagem("➞ Tratamento contra lagarta do cartucho: spodovir");
         });
 
         //Percevejo-marrom
@@ -286,7 +286,7 @@ function escolha(plantacao) {
         pragas.appendChild(percevejoMarrom);
 
         percevejoMarrom.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra percevejo-marrom: engeo pleno s");
+        exibirMensagem("➞ Tratamento contra percevejo-marrom: engeo pleno s");
         }); 
 
         //Percevejo-da-soja
@@ -295,7 +295,7 @@ function escolha(plantacao) {
         pragas.appendChild(percevejoSoja);
 
         percevejoSoja.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra percevejo-da-soja: engeo pleno s");
+        exibirMensagem("➞ Tratamento contra percevejo-da-soja: engeo pleno s");
         }); 
 
         //Percevejo-verde-pequeno
@@ -304,7 +304,7 @@ function escolha(plantacao) {
         pragas.appendChild(percevejoVerdePequeno);
 
         percevejoVerdePequeno.addEventListener('click', function() {
-        exibirMensagem("Tratamento percevejo-verde-pequeno: engeo pleno s");
+        exibirMensagem("➞ Tratamento percevejo-verde-pequeno: engeo pleno s");
         });
 
         //Lagarta Helicoverpa
@@ -313,12 +313,12 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaHelicoverpa);
 
         lagartaHelicoverpa.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta helicoverpa: bacillus thuringienses");
+        exibirMensagem("➞ Tratamento contra lagarta helicoverpa: bacillus thuringienses");
         });
 
     //Trigo    
     }  else if (plantacao == '10') {
-        mensagemElement.innerHTML = "Qual o nome da praga que está atacando sua plantação de trigo?";
+        mensagemElement.innerHTML = "➤ Qual o nome da praga que está atacando sua plantação de trigo?";
 
         //Para limpar os textos após um novo click
         let pragas = document.getElementById("pragas");
@@ -330,7 +330,7 @@ function escolha(plantacao) {
         pragas.appendChild(lagartaCartucho);
 
         lagartaCartucho.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra lagarta do cartucho: spodovir");
+        exibirMensagem("➞ Tratamento contra lagarta do cartucho: spodovir");
         });
 
         //Percevejo-barriga-verde
@@ -339,7 +339,7 @@ function escolha(plantacao) {
         pragas.appendChild(percevejoBarrigaVerde);
 
         percevejoBarrigaVerde.addEventListener('click', function() {
-        exibirMensagem("Tratamento contra percevejo-barriga-verde: engeo pleno s");
+        exibirMensagem("➞ Tratamento contra percevejo-barriga-verde: engeo pleno s");
         });
     }
 }
