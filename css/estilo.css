@@ -17,6 +17,13 @@ p {
     font-family: 'Roboto', sans-serif, calibri, arial;
 }
 
+form {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif, calibri, arial;
+}
+
 h1 {
     background-color: rgb(26, 91, 11);
     color: white;
