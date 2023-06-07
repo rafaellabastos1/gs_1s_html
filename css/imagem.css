@@ -1,0 +1,49 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: center;
+    border-radius: 10%;
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
+
+.imgvulnerabilidade {
+    width: 430px;
+    float: left;
+    padding-right: 20px;
+}
+
+.imgiaconta, .imgiacomp {
+    width: 330px;
+    float: right;
+}
+
+.imgmaoplantacao {
+    width: 220px;
+    float: left;
+    padding-right: 20px;
+}
+
+.imgplantatecno, .imghomemplanta, .imgmaoplanta {
+    width: 300px;
+    float: left;
+    padding-right: 20px;
+}
+
+.imgia, .imgiamaquina {
+    width: 330px;
+    float: left;
+    padding-left: 20px;
+}
+
+.imgdroneplanta, .imgplantaagua {
+    width: 250px;
+    float: left;
+}
+
+.imgcultivoartificial {
+    width: 250px;
+    float: right;
+}

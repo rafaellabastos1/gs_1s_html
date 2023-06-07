@@ -1,0 +1,13 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(26, 91, 11);
+    color: white;
+}
+
+footer p {
+    line-height: 1px;
+}
+
