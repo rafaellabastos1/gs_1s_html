@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap%27);
+@import url(https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap%27);
+
+body {
+    background-color: #fcf1d7;
+}
+
+p {
+    font-size: 18px;
+    text-indent: 20px;
+    line-height: 32px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif, calibri, arial;
+}
+
+h1 {
+    background-color: rgb(26, 91, 11);
+    color: white;
+    text-indent: 20px;
+    font-size: 40px;
+    font-family: 'Bitter', 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-indent: 20px;
+    font-size: 26px;
+    font-family: 'Bitter', 'Times New Roman', Times, serif;
+}
+
+li {
+    font-size: 18px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif, calibri, arial;
+}
