@@ -1,0 +1,14 @@
+@media(max-width: 650px){
+    .cabecalho{
+        width: 434px;
+    }
+    .rodape h2{
+        font-size: 15px;
+    }
+    .rodape p{
+        font-size: 9px;
+    }
+    section h2{
+        font-size: 20px;
+    }
+}
