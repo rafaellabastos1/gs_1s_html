@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/tratamento.js" defer></script>
+    <title>Indicação de tratamento</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="cabecalho">
+        <ul>
+          <a href="./pages/agricultura-sustentavel.html"><i class="fa fa-heartbeat" aria-hidden="true">&nbsp;&nbsp;</i>Agricultura Sustentável</a>
+          <a href="./pages/IA-generativa.html"><i class="fa fa-lightbulb-o" aria-hidden="true">&nbsp;&nbsp;</i>IA's Generativas</a>
+          <a href="./pages/cultivo-eficiente.html"><i class="fa fa-rocket" aria-hidden="true">&nbsp;&nbsp;</i>Cultivos Eficientes</a>
+          <a href="./pages/contato.html"><i class="fa fa-phone" aria-hidden="true">&nbsp;&nbsp;</i>Contato</a>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>&nbsp;&nbsp;PlanTech<i class="fa fa-leaf" aria-hidden="true"></i></h1>
+    </header>
+
+    <section>
+        <h2>Identifiquei uma praga na minha plantação. E agora?</h2>
+        <p>O primeiro passo é procurar o nome da sua plantação atacada na lista abaixo e clicar no <b>x</b>.</p>
+
+        <ul> 
+            <li> <button onclick="escolha('1')" class="botao"> <i class="fa fa-times" aria-hidden="true"></i> </button> Algodão</li>
+            <li> <button onclick="escolha('2')" class="botao"> <i class="fa fa-times" aria-hidden="true"></i> </button> Arroz</li>
+            <li> <button onclick="escolha('3')" class="botao"> <i class="fa fa-times" aria-hidden="true"></i> </button> Aveia</li>
+            <li> <button onclick="escolha('4')" class="botao"> <i class="fa fa-times" aria-hidden="true"></i> </button> Café</li>
+            <li> <button onclick="escolha('5')" class="botao"> <i class="fa fa-times" aria-hidden="true"></i> </button> Cana-de-açúcar</li>
+            <li> <button onclick="escolha('6')" class="botao"> <i class="fa fa-times" aria-hidden="true"></i> </button> Feijão</li>
+            <li> <button onclick="escolha('7')" class="botao"> <i class="fa fa-times" aria-hidden="true"></i> </button> Girassol</li>
+            <li> <button onclick="escolha('8')" class="botao"> <i class="fa fa-times" aria-hidden="true"></i> </button> Milho</li>
+            <li> <button onclick="escolha('9')" class="botao"> <i class="fa fa-times" aria-hidden="true"></i> </button> Soja</li>
+            <li> <button onclick="escolha('10')" class="botao"> <i class="fa fa-times" aria-hidden="true"></i> </button> Trigo</li>
+            <p id="escolha"></p>
+
+            <div id="pragas"></div>
+            <p id="mensagem"></p>
+        </ul>
+    </section>
+
+    <footer class="rodape">
+        <h2><i class="fa fa-users" aria-hidden="true">&nbsp;&nbsp;</i>Integrantes da equipe:</h2>
+        <p>Douglas Magalhães de Araujo - RM: 552008 &nbsp;|&nbsp; Gustavo Arguello Bertacci - RM: 551304</p>
+        <p>Igor Ribeiro Anccilotto - RM: 550415 &nbsp;|&nbsp; Luiz Fillipe Farias - RM: 99519</p>
+        <p>Rafaella Monique do Carmo Bastos - RM: 552425</p>
+    </footer>
+</body>
